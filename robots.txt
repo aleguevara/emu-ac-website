@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# Aviso de privacidad público; sin contenido de afiliados indexable.
+Sitemap: https://emu-ac.mx/sitemap.xml

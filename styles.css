@@ -166,3 +166,23 @@ footer{background:var(--purple-deep); color:#D9D7E8; padding:54px 0 26px; margin
   .menu-btn{display:block}
   footer .social-row{justify-content:flex-start}
 }
+
+/* ===== Estudios ===== */
+.lectura{background:linear-gradient(135deg,var(--purple-deep),var(--purple)); color:#EDEBF7; border-radius:8px; padding:36px clamp(22px,4vw,48px); margin-bottom:34px}
+.lectura-tag{display:inline-block; font-family:'Spectral',serif; font-size:.7rem; letter-spacing:.3em; text-transform:uppercase; color:var(--gold); border:1px solid var(--gold); border-radius:20px; padding:4px 14px; margin-bottom:14px}
+.lectura h3{color:#fff; font-size:clamp(1.5rem,3vw,2.1rem); margin-bottom:10px}
+.lectura p{color:#CFCCE4; max-width:760px; margin-bottom:20px}
+.lectura .lectura-ghost{border-color:rgba(255,255,255,.35); color:#fff}
+.lectura .lectura-ghost:hover{border-color:var(--gold); color:var(--gold)}
+.post-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:22px}
+.post-card{background:var(--panel); border:1px solid var(--lav-line); border-radius:6px; overflow:hidden; display:flex; flex-direction:column; transition:transform .25s, box-shadow .25s}
+.post-card:hover{transform:translateY(-4px); box-shadow:0 14px 30px rgba(44,42,77,.10)}
+.pc-img{height:150px; background-size:cover; background-position:center; background-color:var(--lav)}
+.pc-body{padding:20px 22px; display:flex; flex-direction:column; flex:1}
+.pc-date{font-family:'Spectral',serif; font-size:.72rem; letter-spacing:.14em; text-transform:uppercase; color:var(--gold-dk); margin-bottom:6px}
+.pc-body h3{font-size:1.25rem; line-height:1.25; margin-bottom:8px}
+.pc-body p{font-size:.92rem; color:var(--ink-soft); flex:1}
+.pc-share{margin-top:12px; font-family:'Spectral',serif; font-size:.82rem}
+.estudios-foot{text-align:center; margin-top:30px}
+.mini-note{text-align:center; font-size:.82rem; font-style:italic; color:var(--ink-soft); margin-top:12px}
+@media(max-width:860px){.post-grid{grid-template-columns:1fr}}
