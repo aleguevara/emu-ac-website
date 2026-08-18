@@ -41,7 +41,7 @@ nav a:hover{color:var(--purple-deep)} nav a:hover::after{width:100%}
 .hero-inner{position:relative}
 .eyebrow{font-family:'Spectral',serif; font-size:.78rem; letter-spacing:.42em; text-transform:uppercase; color:var(--gold-dk); margin-bottom:22px}
 .hero h1{font-size:clamp(2.6rem,6vw,4.6rem); font-weight:600}
-.hero h1 .sub{display:block; font-style:italic; font-weight:400; font-size:.5em; color:var(--purple); margin-top:6px; letter-spacing:.02em}
+.hero h1 .sub{display:block; font-family:'Spectral',serif; font-style:normal; font-weight:500; font-size:.26em; color:var(--gold-dk); margin-top:16px; letter-spacing:.32em; text-transform:uppercase}
 .rule-gold{width:64px; height:2px; background:var(--gold); margin:30px auto; position:relative}
 .rule-gold::before,.rule-gold::after{content:""; position:absolute; top:50%; width:5px; height:5px; background:var(--gold); border-radius:50%; transform:translateY(-50%)}
 .rule-gold::before{left:-14px} .rule-gold::after{right:-14px}
@@ -186,3 +186,8 @@ footer{background:var(--purple-deep); color:#D9D7E8; padding:54px 0 26px; margin
 .estudios-foot{text-align:center; margin-top:30px}
 .mini-note{text-align:center; font-size:.82rem; font-style:italic; color:var(--ink-soft); margin-top:12px}
 @media(max-width:860px){.post-grid{grid-template-columns:1fr}}
+
+/* Vinculación institucional */
+.vinculo{margin-top:34px; background:var(--panel); border:1px solid var(--gold); border-left:4px solid var(--gold); border-radius:6px; padding:26px 30px}
+.vinculo h3{font-size:1.4rem; margin-bottom:6px}
+.vinculo p{color:var(--ink-soft); font-size:.98rem; margin:0}
