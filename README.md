@@ -1,3 +1,4 @@
+[README.md](https://github.com/user-attachments/files/31163275/README.md)
 # Sitio Web — Entidad Masónica Universal (EMU)
 
 Sitio institucional estático (página principal + página del Aviso de Privacidad). Publicado en https://emu-ac.mx. Sin servidor, sin base de datos, sin cookies de seguimiento. Pensado para alojarse en **GitHub Pages** y publicarse en **https://emu-ac.org**.
